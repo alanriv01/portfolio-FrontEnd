@@ -1,3 +1,8 @@
 div {
     background-color: aquamarine;
 }
+
+app-social-media {
+    float: right;
+    margin-top: 22px;
+}
