@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="acercadeA">Acerca de mi</label>
+                    <input type="text" class="form-control" id="acercadeA" name="acercadeA" [(ngModel)]="acercadeA" required>
+                </div>
+                <button class="btn btn-primary">
+                    Agregar campo
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
